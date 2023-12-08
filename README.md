@@ -19,7 +19,7 @@ On windows machines, simply double click the included autorun.bat file or run it
 For other systems, navigate to the project directory and run the program directly. You may manually delete the old encrypted.txt and decrypted.txt files if you wish, but it is not mandatory.
 
 ```bash
-  java -jar rars1_6.jar project-one.s
+  java -jar ./bin/rars1_6.jar ./src/project-one.s
 ```
 
 The program will generate a popup window displaying the result of COMPARE if the program runs without error. You may view the contents of the generated encrypted.txt and decrypted.txt files for verification.
